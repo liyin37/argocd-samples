@@ -11,3 +11,6 @@ spec:
   selector:
     matchLabels:
       alicloud-pvname: oss-ack-pre
+  storageClassName: oss
+  volumeMode: Filesystem
+  volumeName: oss-ack-pre
