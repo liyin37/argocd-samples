@@ -4,7 +4,7 @@ metadata:
   name: storage-pvc
 spec:
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   storageClassName: oss
   resources:
     requests:
