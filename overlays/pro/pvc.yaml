@@ -1,10 +1,11 @@
-apiVersion: v1
 kind: PersistentVolumeClaim
+apiVersion: v1
 metadata:
   name: storage-pvc
 spec:
   accessModes:
-  - ReadWriteOnce
+    - ReadWriteMany
+  storageClassName: oss
   resources:
     requests:
       storage: 5Gi
